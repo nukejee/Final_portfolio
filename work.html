@@ -1,0 +1,555 @@
+<!doctype html>
+<html>
+	
+		<title>work</title>
+		<meta charset="utf-8">
+		
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta content="" name="keywords">
+<meta content="" name="description">
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+    div{
+        display: block;
+    
+    }
+     body{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4b4d5d;
+    font-size: 16px;
+    opacity: 1;
+    visibility: visible;
+    }
+    html{
+        
+        font-family: sans-serif;
+        text-size-adjust: 100%;
+        
+    }
+      h1{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    font-size: 6px;
+    margin: 0px;
+    padding-top: 50px;
+    }
+    
+    h2{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+    color: #59bcb8;
+    margin: 10px;
+    padding-top: 0;
+    
+    }
+     h3{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 8px;
+    margin: 10px;
+    padding-top: 0;
+    color: #818483;
+    }
+    h4{
+    font-family: sans-serif; 
+   font-weight: 300;
+    font-style: normal;
+    text-align:left;
+    font-size: 8px;
+    color: #818483;
+     margin: 10px;
+    padding-top: 0;
+    }
+     
+    h5{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 8px;
+    color: #818483;
+    margin: 15px;
+    padding-top: 0;
+    }
+      h6{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 10px;
+    color: #59bcb8;
+     margin: 15px;
+    padding-top: 0;
+    }
+      h7{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 5px;
+    color: #818483;
+    margin: 10px;
+    padding-top: 10;
+    }    
+    
+      header {
+            text-align: left;
+            margin: 50px 0 50px 10px;
+            margin-top: 30px;
+            float: left;
+      }
+    div.scrollmenu {
+ 
+  overflow: auto;
+  white-space: nowrap;
+
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #818483;
+  
+  padding: 14px;
+  text-decoration: none;
+  font-family: sans-serif;
+  
+}
+
+div.scrollmenu a:hover {
+  background-color: #F6F5F1;
+}
+    .column {
+  
+  width: 50%;
+  float: left;
+  
+
+ 
+  
+                }
+   
+    
+.row {
+content: "";
+font-family: sans-serif;
+ text-align: center;
+display: table;
+
+    
+                }
+  
+    .container {
+    position: relative;
+    width:30%;
+
+    display: inline-grid;
+}
+
+.image {
+    display:grid;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+   .text {
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #59bcb8;
+   
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.container:hover .overlay,.container:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.container:hover .overlayLeft ,.container:hover .overlayRight {
+    width: 100%;
+}
+     @media only screen and (min-width:768px){
+    h1{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    padding-top: 50px;
+    }
+    
+    h2{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px;
+    color: #59bcb8;
+    margin: 15px;
+    padding-top: 15px;
+    
+    }
+     h3{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 14px;
+    margin: 15px;
+    padding-top: 0;
+    color: #818483;
+    }
+    h4{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align:left;
+    font-size: 12px;
+    color: #818483;
+     margin: 15px;
+    padding-top: 0;
+    }
+     
+    h5{
+    font-family: sans-serif; 
+   font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    font-size: 12px;
+    color: #818483;
+     margin: 50px;
+    padding-top: 0;
+    }
+      h6{
+    font-family: sans-serif; 
+   font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    font-size: 10px;
+    color: #59bcb8;
+     margin: 15px;
+    padding-top: 0;
+    }
+      h7{
+    font-family: sans-serif; 
+   font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    font-size: 10px;
+    color: #818483;
+    margin: 30px;
+    padding-top: 10;
+    }    
+        
+     .column {
+  
+  width: 50%;
+  float: left;
+  
+  padding: 0px;
+ 
+     }
+         
+          .hero-image {
+  background-image: url("line.png");
+  background-size: 400px;
+  margin: 3px;
+  padding: 0px;
+  background-position: left; 
+  background-repeat: no-repeat;
+  
+  
+}  
+         
+         .text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+          @media only screen and (min-width:1000px){
+    h1{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    font-size: 18px;
+    margin: 5px;
+    padding-top: 10px;
+    }
+    
+    h2{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 35px;
+    color: #59bcb8;
+    margin: 10px;
+    padding-top: 70px;
+    
+    }
+     h3{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 18px;
+    margin: 10px;
+    padding-top: 0;
+    color: #818483;
+    }
+    h4{
+    font-family: sans-serif; 
+   font-weight: 400;
+    font-style: normal;
+    text-align:left;
+    font-size: 15px;
+    color: #818483;
+     margin: 10px;
+    padding-top: 0;
+    }
+     
+    h5{
+    font-family: sans-serif; 
+   font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #818483;
+     margin: 50px;
+    padding-top: 0;
+    }
+      h6{
+    font-family: sans-serif; 
+   font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 12px;
+    color: #59bcb8;
+     margin: 10px;
+    padding-top: 20px;
+    }
+      h7{
+    font-family: sans-serif; 
+   font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #818483;
+    margin: 28px;
+    padding-top: 10;
+    }    
+        
+     .column {
+  
+  width: 50%;
+  float: left;
+  
+  padding: 0px;
+ 
+     }
+         
+          .hero-image {
+  background-image: url("line.png");
+  background-size: 650px;
+  margin: 20px;
+  padding: 20px;
+  background-position: left; 
+  background-repeat: no-repeat;
+  
+  
+}  
+         
+         .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+    </style>
+    <head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="icon" type="image/x-icon" href="ak.png">
+    </head>
+     <header>  
+             <div align="left"> 
+              
+                  <img src="ak.png" alt="logo" style="position: fixed; width:5%;" > </div>
+                  </header>
+                  
+                 <div class="scrollmenu"> 
+                <h1> 
+                  <a href="home.html" style=" text-decoration: none; margin: 20px; padding: 10px;"> HOME </a> 
+                     <a href="about.html" style="text-decoration: none; margin: 20px; padding: 10px;">ABOUT </a>
+                     <a href="index.html" style=" text-decoration: none;margin: 20px; padding: 10px;"> BLOG </a>
+                     <a href="work.html" style="text-decoration: none; margin: 20px; padding: 10px;"> WORK </a>
+                     <a href="contact.html" style="text-decoration: none; margin: 20px; padding: 10px;">CONTACT </a>
+                     </h1>
+           </div>
+     
+    <body>
+        <div style=" background-color:white;">
+          <div class="hero-image"> 
+           <div class="row">
+        <div class="column">
+       
+        
+             
+              <h2>  <p> What I've been up to
+</p></h2>
+          <h3>   <p> packaging design, logo design for the Green Market,
+  </p>
+              <p> advertising design and wallpaper & wall murals design. </p> </h3>
+        <br>
+           
+         <h4>    <p>  WORKING WITH INDIVIDUALS TO ESTABLISHED BRANDS </p> </h4>
+         <h7> 
+         <p> 
+        <a href="https://www.facebook.com/ardrujee.jee" style="text-decoration:none;"> <span style="color: #59bcb8; margin: 15px;"> FACEBOOK - </span> </a> 
+                 
+                     <a href="https://www.instagram.com/nuke_ardrujee/" style="text-decoration:none;"> <span style="color: #59bcb8; margin: 15px;"> INSTAGRAM - </span> </a>   
+                     <a href="https://twitter.com/ardrujee" style="text-decoration: none;"> <span style="color: #59bcb8; margin: 15px;"> TWITTER </span></a>
+         
+         </p>
+         
+         
+         </h7>
+         
+         
+   </div>
+   
+ <div class="column">  
+                  <img src="picme2.jpg" alt="me" style= "width:80%; padding-top: 15px; " > 
+                   
+                  </div>
+                  </div>
+          </div> 
+        </div>
+        
+         <div class="row"> 
+          
+              
+                  <div class="column">
+        
+                <br>
+                <br>
+                <br>
+                <h5> 
+               <p>  Wallpaper design. Design your own interior exactly how you want it.
+               
+</p>
+ <p>
+     <a href="contact.html" style="color: #818483; text-decoration: none; "> Learn more >  </a> </p>
+                      </h5>
+   </div>
+                    <div class="column">  
+                <br>
+                <br>
+                <br> 
+              <img src ="project21.png" alt="project10" style="width: 45%; margin: 7px;"> <img src="work6.jpg" alt="project10" style="width: 38%; margin: 10px; padding-right: 20px;"> 
+            </div>
+               </div>
+               
+                 <center> 
+              <br>
+              <br>
+
+        
+        <div class="container">
+            <img src="work1.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">Business Card Design</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="work2.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">Mockup</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="project3.jpg" alt="Avatar" class="image" >
+            <div class="overlay">
+                <div class="text">Card Game Packaging Design </div>
+            </div>
+        </div>
+    
+   
+        <div class="container">
+            <img src="project8.jpg" alt="Avatar" class="image">
+            <div class="overlay" >
+                <div class="text">Mockup</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="work4.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">Logo Green Market Design</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="work3.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">Card Game Packaging Design</div>
+            </div>
+        </div>
+    
+    <br>
+    <br>
+    <br>
+              
+    
+            
+         
+        
+        </center>
+  
+        
+    </body>
+    
+</html>
